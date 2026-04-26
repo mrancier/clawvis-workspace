@@ -122,12 +122,12 @@ export const Route = createRootRoute({
           'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-visual',
       },
       {
-        title: 'Hermes Workspace',
+        title: 'ClawVis',
       },
       {
         name: 'description',
         content:
-          'Hermes Agent workspace for chat, tools, files, memory, and jobs.',
+          'MegaMaCluw workspace — chat, files, memory, and jobs.',
       },
       {
         property: 'og:image',
@@ -403,7 +403,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             } catch(e){}
 
             var isDark = !['hermes-nous-light','hermes-official-light','hermes-classic-light','hermes-slate-light'].includes(theme);
-            var quips = ["Consulting the oracle...","Loading ancient knowledge...","Warming up the messenger...","Calibrating tool chain...","Summoning Hermes...","Preparing the workspace...","Bridging realms...","Initializing agent runtime..."];
+            var quips = ["Consulting the oracle...","Loading ancient knowledge...","Warming up the claw...","Calibrating tool chain...","Summoning MegaMaCluw...","Preparing the workspace...","Bridging realms...","Initializing agent runtime..."];
             var quip = quips[Math.floor(Math.random() * quips.length)];
 
             var d = document.createElement('div');
